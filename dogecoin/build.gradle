@@ -17,8 +17,6 @@ afterEvaluate {
 }
 
 android {
-    ndkVersion "21.1.6352462"
-
     defaultConfig {
         minSdkVersion 16
         compileSdkVersion 30
@@ -45,6 +43,9 @@ android {
             jniLibs.srcDirs = ['src/main/jniLibs']
         }
     }
+    ndkVersion '20.0.5594570'
+    compileSdkVersion 31
+    buildToolsVersion '31.0.0'
 }
 
 dependencies {

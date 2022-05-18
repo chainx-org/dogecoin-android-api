@@ -1,6 +1,8 @@
 before_install:
   - sdk install java 11.0.10-open
   - sdk use java 11.0.10-open
-
+install:
+  - echo "Install NDK 20.0.5594570"
+  - yes | sdkmanager --install "ndk;20.0.5594570"
 jdk:
   - openjdk11
