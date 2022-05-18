@@ -2,9 +2,5 @@ before_install:
   - sdk install java 11.0.10-open
   - sdk use java 11.0.10-open
 
-install:
-  - unset JAVA_TOOL_OPTIONS
-  - sdkmanager --install "ndk;21.1.6352462"
-
 jdk:
   - openjdk11
