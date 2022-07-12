@@ -1,6 +1,7 @@
 before_install:
   - sdk install java 11.0.10-open
   - sdk use java 11.0.10-open
+  - yes | sdkmanager --uninstall "ndk-bundle" | sdkmanager --install "ndk;22.1.7171670"
 
 jdk:
   - openjdk11
